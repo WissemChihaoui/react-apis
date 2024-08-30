@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import RetryFetch from "./pages/RetryFetch";
+import PaginatedPosts from "./pages/PaginatedPosts";
+import PostList from "./pages/PostList";
+import PostListLoading from "./pages/PostListLoading";
+import UserList from "./pages/UserList";
+import UserSearch from "./pages/UserSearch";
+import CachingFetch from "./pages/CachingFetch";
+import UserPosts from "./pages/UserPosts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <UserPosts />
+    </>
   );
 }
 
